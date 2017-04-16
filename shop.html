@@ -3,98 +3,192 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Барбершоп</title>
-	<link rel="stylesheet" type="text/css" href="css/shop.css">
 </head>
 <body>
 	<header class="main header">
-	  		<div class="container">
-	  			<div class="index-logo">
-	  				<a href="#"><img src="#" alt=""></a>
-	  			</div>
-	  			<nav class="main-navigation">
-	  				<ul>
-	  					<li>Информация
-	  						<a href="#"></a>
-	  					</li>
-	  					<li>Новости
-	  						<a href="#"></a>
-	  						</li>
-	  					<li>Прайс-лист
-	  						<a href="#"></a>
-	  					</li>
-	  					<li>Магазин
-	  						<a href="#"></a>
-	  					</li>
-	  					<li>Контакты
-	  						<a href="#"></a>
-	  					</li>
-	  				</ul>
-	  			</nav>
-	  			<div class="user-block">
-	  				<a href="#">Войти</a>
-	  			</div>
-	  		</div>
-	<main class="container">
-	  	<div class="index-content">
-	  		<h1 class="index-content-title">Набор для путешествий "Baxter of California"</h1>
-	  		<div class="breadcrumbs">
+		<div class="container">
+			<div class="index-logo">
+			  <a href="#"><img src="#" alt=""></a>
+		    </div>
+			<nav class="main-navigation">
+			  <ul>
+			  	<li>Информация
+			  		<a href="#"></a>
+			  	</li>
+			  	<li>Новости
+			  		<a href="#"></a>
+			  	</li>
+			  	<li>Прайс-лист
+			  		<a href="#"></a>
+			  	</li>
+			  	<li>Магазин
+			  		<a href="#"></a>
+			  	</li>
+			  	<li>Контакты
+			  		<a href="#"></a>
+			  	</li>
+			  </ul>
+			</nav>
+			<div class="user-block">
+			  	<a href="#">Вход</a>
+			</div>
+		</div>
+	</header>
+<!--Основной контейнер-->
+	<div class="container">
+		<div class="page-title">
+		  	<h1>Средства для рухода</h1>
+		  	<div class="breadcrumbs">
+		  		<ul>
+		  			<li>
+		  				<a href="#">Главная</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Магазин</a>
+		  			</li>
+		  			<li>
+		  				<a href="#">Средства для ухода</a>
+		  			</li>
+		  		</ul>
+		  	</div>
+		</div>
+<!--Боковая панель-->
+		<div class="sidebar">
+			<form class="sidebar-form">
+			 	<h2 class="sidebar-title">Производители</h2>
+  				<ul>
+  					<li>
+  						<input type="checkbox" id="baxter-field" checked>
+  						<label for="baxter-field">Baxter of California</label>
+  					</li>
+  					<li>
+  						<input type="checkbox" id="natty-field">
+  						<label for="natty-field">Mr Natty</label>
+  					</li>
+  					<li>
+  						<input type="checkbox" id="suavecito-field" checked>
+  						<label for="suavecito-field">Suavecito</label>
+  					</li>
+  					<li>
+  						<input type="checkbox" id="malin-field">
+  						<label for="malin-field">Malin+Goetz</label>
+  					</li>
+  					<li>
+  						<input type="checkbox" id="murray-field">
+  						<label for="murray-field">Murray's</label>
+  					</li>
+  					<li>
+  						<input type="checkbox" id="crew-field" checked>
+  						<label for="crew-field">American Crew</label>
+  					</li>
+  				</ul>
+				<h2 class="sidebar-title">Группы товаров</h2>
 	  			<ul>
-	  				<li><a href="#">Главная</a>
-	  				</li>
-	  				<li><a href="#">Магазин</a>
-	  				</li>
-	  				<li><a href="#">Средства для ухода</a>
-	  				</li>
-	  				<li><a href="#">Набор для путешествий "Baxter of California"</a>
-	  				</li>
+					<li>
+						<input type="radio" name="adapt" id="tackle-field">
+						<label for="tackle-field">Бритвенные принадлежности</label>
+					</li>
+					<li>
+						<input type="radio" name="device" id="device-field" checked>
+						<label for="device-field"> Средства для ухода</label>
+  					</li>
+  					<li>
+  						<input type="radio" name="accessories " id="accessories-field">
+  						<label for="accessories-field"> Аксессуары</label>
+  					</li>
 	  			</ul>
-	  		</div>
-	  		<div class="index-content-left">
-	  			<div class="gallery">
-	  				<figure class="gallery-main">
-	  					<img src="#" alt="">
-	  				</figure>
-	  			</div>
-	  			<div class="gallery-select">
-	  				<figure class="gallery-item">
-	  					<img src="#" alt="">
-	  				</figure>
-	  				<figure class="gallery-item">
-	  					<img src="#" alt="">
-	  				</figure>
-	  				<figure class="gallery-item">
-	  					<img src="#" alt="">
-	  				</figure>
-	  			</div>
-	  		</div>
-	  		<div class="index-cotent-right">
-	  			<div class="content-title">
-	  				<h3>В наличии</h3>
-	  			</div>
-	  			<div class="content-article">
-	  				<p>Артикул:Dexter-AE</p>
-	  			</div>
-			<p>Travel Kit- необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится всё, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-	  		</div>
-	  		<div class="price-block">
-	  			<div class="price-item">
-	  				2 900 руб.
-	  			</div>
-		  		<div class="buy-btn-container">
-		  			<a class="buy-btn" href="#">Купить</a>
-	  			</div>
-	  	    </div>
-	  	    <div class="content-list">
-	  	    	<h2>В набор входят</h2>
-	  	    	<ul>
-	  	    		<li>Средство для умывания(50мл)</li>
-	  	    		<li>Увлажняющий крем(50мл)</li>
-	  	    		<li>Крем для бритья(50мл)</li>
-	  	    		<li>Крем после бритья, шампунь(50мл)</li>
-	  	    		<li>Удобная кожаная косметичка</li>
-	  	    	</ul>
-	  	</div>
-	</main>
+  				<button class="btn-sidebar" type="button">Показать</button>
+			</form>
+		</div>
+		<div class="content">
+			<div class="catalog">
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a class="catalog-description" href="#"><p>Набор для путешествий<br>
+					"Baxter of California"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			2 900 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a class="catalog-description" href="#"><p>Увлажняющий кондиционер<br>
+					"Baxter of California"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			750 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a class="catalog-description" href="#"><p>Гель для волос<br>
+					"Suavecito"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			290 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a href="#"><p>Глина для укладки волос<br>
+					"American Crew"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			500 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a class="catalog-description" href="#"><p>Гель для волос<br>
+					"American Crew"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			300 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+				<article class="catalog-item">
+					<a class="catalog-img" href="#"><img src="#" alt=""></a>
+					<a class="catalog-description" href="#"><p>Набор для бритья<br>
+					"Baxter of California"</p></a>
+					<div class="price-block">
+				  		<div class="price-item">
+				  			3 900 руб.
+				  		</div>
+					  	<div class="buy-btn-container">
+					  		<a class="buy-btn" href="#">Купить</a>
+				  		</div>
+				  	</div>
+				</article>
+			</div>
+			<div class="index-content-btn">
+		        <button class="btn content-pagination" type="button">1</button>
+		        <button class="btn content-pagination" type="button">2</button>
+		        <button class="btn content-pagination" type="button">3</button>
+		        <button class="btn content-pagination" type="button">4</button>
+	        </div>
+		</div>
+	</div>
 	<footer class="main-footer">
 		<div class="container">
 			<section class="footer-contacts">
@@ -111,10 +205,10 @@
 				<a class="social button social-btn-inst">Инстаграм</a>
 			</section>
 			<section class="footer-copyrighte">
-			<p>Разработано:</p>
-			<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+				<p>Разработано:</p>
+				<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
 			</section>
 		</div>
-	</footer>
+	</footer>	
 </body>
 </html>
